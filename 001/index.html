@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sabino Capingana">
+    <meta name="description" content="Desenvolvimento de Software livre">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/pages/media_queries.css">
+    <title>Fullstack Web</title>
+</head>
+
+<body>
+    <header class="header-page">
+        <img src="./assets/img/logo.png" alt="" srcset="" id="logo">
+        <!-- logotipo -->
+        <div class="burguer-menu">
+            <img src="./assets/img/menu.png" alt="" srcset="" id="itens" onclick="showList()">
+        </div>
+        <!-- menu -->
+        <menu class="menu-lista" id="lista">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </menu>
+        <!-- fim do menu -->
+        </img>
+    </header>
+
+    <!-- javacscript -->
+    <script>
+        function showList() {
+            return lista.style.display == "block" ? lista.style.display = "none" : lista.style.display = "block"
+
+        }
+    </script>
+
+</body>
+
+</html>
