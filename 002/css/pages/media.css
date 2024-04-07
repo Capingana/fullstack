@@ -1,0 +1,21 @@
+
+@media screen and (min-width: 768px) {
+    .menu-logo{
+        display: none;
+    }
+  .menu-header {
+    display: block;
+  }
+  .menu-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .menu-header >ul>li {
+   border-top: none;
+   display: inline;
+   
+  }
+}
