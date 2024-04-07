@@ -8,6 +8,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 header {
   background-color: #072f5d;
@@ -52,6 +53,9 @@ header {
 }
 .container img {
   width: 100%;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 section.products {
@@ -80,7 +84,7 @@ section > div {
 .titulo button {
   text-align: center;
   padding: 10px;
-  width: -webkit-fill-available;
+  /* width: -webkit-fill-available; */
   border: none;
   color: white;
   cursor: pointer;
@@ -100,14 +104,17 @@ section > div {
   padding: 10px;
 }
 .servico {
+ 
+  
   padding: 20px;
   display: grid;
+  margin: auto;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2px;
+  gap: 10px;
 }
 .servico div {
-  width: 300px;
-  padding: 5px;
+  width: 350px;
+  padding: 10px;
 }
 .servico div p {
   color: white;
@@ -130,8 +137,43 @@ section > div {
 
 footer {
   text-align: center;
-  width: 100vw;
   padding: 20px;
   color: #072f5d;
   background-color: #999b9c81;
 }
+/* =============================== */
+#marketing{
+  background: url("../img/background-home.jpg") no-repeat;
+  background-position: center center ;
+  background-size: cover;
+    border: 5px solid white;
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.623);
+    border-radius: 10px;
+
+}
+
+#cloud{
+  background: url("../img/background-servicos.jpg") no-repeat;
+  background-position: center center ;
+  background-size: cover;
+    border: 5px solid white;
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.623);
+    border-radius: 10px;
+}
+#virtual_store{
+  background: url("../img/background-sobre1.jpg") no-repeat;
+  background-position: center center ;
+  background-size: cover;
+    border: 5px solid white;
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.623);
+    border-radius: 10px;
+}
+#seo{
+  background: url("../img/background-home.jpg") no-repeat;
+  background-position: center center ;
+  background-size: cover;
+    border: 5px solid white;
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.623);
+    border-radius: 10px;
+}
+
