@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/menu-logo/logo.png" type="image/x-icon">
+    <meta name="author" content="Sabino Capingana">
+    <meta name="description" content="Site de venda de serviços publicitários">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Cowbool</title>
+</head>
+
+<body>
+    <header class="header-page">
+        <img src="./assets/img/menu-logo/logo.png" alt="logo" srcset="" class="logo">
+        <menu class="menu-ul">
+            <div class="burguer-div">
+                <img src="./assets/img/menu-logo/menu.png" alt="" class="burger" onclick="fecharBurguer()">
+            </div>
+            <ul id="lista">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Artigos</a></li>
+                <li><a href="#">Actividades</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </menu>
+    </header>
+    <!-- main page -->
+
+    <main class="container">
+        <section class="firstSection">
+            <div id="firstDiv1">
+                <h1>O artigo que mudará sua vida !</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sit quisquam consequuntur cupiditate
+                    quia placeat ullam, necessitatibus nostrum rem excepturi, quaerat nulla nisi natus quasi quo dicta
+                    soluta. Pariatur, hic.
+                    Rem earum corrupti debitis minima? Reiciendis asperiores, corporis rem, illum, dicta aliquam
+                    inventore dolorem iusto aspernatur incidunt dignissimos excepturi accusamus est vel voluptate
+                    laudantium cumque totam impedit ab aperiam quam?
+                </p>
+                <a href="#" id="comecar">Começar agora</a>
+            </div>
+            <div id="firstDiv2">
+                <img src="./assets/img/backgrounds/background-sobre1.jpg" alt="" srcset="">
+            </div>
+        </section>
+
+        <h1 id="myproject">Meus projectos</h1>
+        <section class="secondSection">
+            <div>
+                <img src="./assets/img/portfolio/1.jpg" alt="">
+                <a href="#">saiba mais...</a>
+            </div>
+            <div>
+                <img src="./assets/img/portfolio/2.jpg" alt="">
+                <a href="#">saiba mais...</a>
+            </div>
+            <div>
+                <img src="./assets/img/portfolio/3.jpg" alt="">
+                <a href="#">saiba mais...</a>
+            </div>
+            <div>
+                <img src="./assets/img/portfolio/4.jpg" alt="">
+                <a href="#">saiba mais...</a>
+            </div>
+            <div>
+                <img src="./assets/img/portfolio/5.jpg" alt="">
+                <a href="#">saiba mais...</a>
+            </div>
+            <div>
+                <img src="./assets/img/portfolio/6.jpg" alt="">
+                <a href="#">saiba mais...</a>
+            </div>
+            <div>
+                <img src="./assets/img/portfolio/7.jpg" alt="">
+                <a href="#">saiba mais...</a>
+            </div>
+            <div>
+                <img src="./assets/img/portfolio/8.jpg" alt="">
+                <a href="#">saiba mais...</a>
+            </div>
+            <div>
+                <img src="./assets/img/portfolio/9.jpg" alt="">
+                <a href="#">saiba mais...</a>
+            </div>
+            <div>
+                <img src="./assets/img/portfolio/10.jpg" alt="">
+                <a href="#">saiba mais...</a>
+            </div>
+        </section>
+    </main>
+
+<footer class="footer-page">
+
+    <div>
+        <img src="./assets/img/footer/layer.png" alt="">
+        <h2>Camada de desenvolvimento</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi inventore itaque sequi adipisci optio iure enim praesentium accusantium tenetur reiciendis? Adipisci, vero! Voluptates incidunt mollitia ut molestiae accusantium adipisci. Nostrum!</p>
+    </div>
+    <div>
+        <img src="./assets/img/footer/digital-marketing.png" alt="">
+        <h2>Marketing Digital</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi inventore itaque sequi adipisci optio iure enim praesentium accusantium tenetur reiciendis? Adipisci, vero! Voluptates incidunt mollitia ut molestiae accusantium adipisci. Nostrum!</p>
+    </div>
+    <div>
+        <img src="./assets/img/footer/manager.png" alt="">
+        <h2>Técnicos de desenvolvimento</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi inventore itaque sequi adipisci optio iure enim praesentium accusantium tenetur reiciendis? Adipisci, vero! Voluptates incidunt mollitia ut molestiae accusantium adipisci. Nostrum!</p>
+    </div>
+    <div>
+        <img src="./assets/img/footer/virtual_store.png" alt="">
+        <h2>Lojas virtuais</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi inventore itaque sequi adipisci optio iure enim praesentium accusantium tenetur reiciendis? Adipisci, vero! Voluptates incidunt mollitia ut molestiae accusantium adipisci. Nostrum!</p>
+    </div>
+    <div>
+        <img src="./assets/img/footer/trophy.png" alt="">
+        <h2>SQL</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi inventore itaque sequi adipisci optio iure enim praesentium accusantium tenetur reiciendis? Adipisci, vero! Voluptates incidunt mollitia ut molestiae accusantium adipisci. Nostrum!</p>
+    </div>
+    <hr>
+
+    <p id="rodape">
+       &copy; Site desenvolvido por <strong><a href="#">Sabino Capingana</a></strong>
+       / 2024.
+    </p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- javascript -->
+    <script>
+        function fecharBurguer() {
+            if (lista.style.display != "none") {
+                lista.style.display = "none";
+            } else {
+                lista.style.display = "block"
+            }
+        }
+    </script>
+</body>
+
+</html>
