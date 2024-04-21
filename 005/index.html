@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>HTML-CSS E JAVASCRIPT</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <h1>Contagem de números</h1>
+        <div>
+            <input type="number" name="inicio" id="txti" placeholder="Digite o numero de inicio">
+        </div>
+        <div>
+            <input type="number" name="fim" placeholder="Digite o numero de paragem" id="txtf">
+        </div>
+        <div>
+            <input type="number" name="passo" placeholder="Digite o numero de intervalos" id="txtp">
+        </div>
+        <div>
+            <button type="button" id="contar" onclick="contar()">Contar</button>
+            <p id="resultado">
+                Preparando a contagem...
+            </p>
+        </div>
+
+    </main>
+    <p id="footer">&copy; Sabino Capingana</p>
+    <script src="./srcript.js"></script>
+</body>
+
+</html>

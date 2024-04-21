@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>FLEX E GRID</title>
+</head>
+
+<body>
+    <header class="header-page">
+        <h1 id="logo">Logo</h1>
+        <div id="logo-menu">
+            <img src="./img/close.png" id="close" alt="close" srcset="">
+            <img src="./img/menu.png" alt="" id=" burguer" onclick="showLink()">
+        </div>
+        <menu id="lista">
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main class="container">
+        <h1>Meu productos </h1>
+        <section class="productos">
+            <div>
+                <img src="./img/portifolio/1.jpg" alt="">
+                <h2>Legenda da primeira foto</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis voluptatem eius saepe accusamus vero
+                    error quia maxime dolores sapiente rem velit similique quos, hic atque necessitatibus quod. Illum,
+                    amet expedita.</p>
+            </div>
+            <div>
+                <img src="./img/portifolio/2.jpg" alt="">
+                <h2>Legenda da segunda foto</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis voluptatem eius saepe accusamus vero
+                    error quia maxime dolores sapiente rem velit similique quos, hic atque necessitatibus quod. Illum,
+                    amet expedita.</p>
+            </div>
+            <div>
+                <img src="./img/portifolio/3.jpg" alt="">
+                <h2>Legenda da terceira foto</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis voluptatem eius saepe accusamus vero
+                    error quia maxime dolores sapiente rem velit similique quos, hic atque necessitatibus quod. Illum,
+                    amet expedita.</p>
+            </div>
+            <div>
+                <img src="./img/portifolio/4.jpg" alt="">
+                <h2>Legenda da quarta foto</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis voluptatem eius saepe accusamus vero
+                    error quia maxime dolores sapiente rem velit similique quos, hic atque necessitatibus quod. Illum,
+                    amet expedita.</p>
+            </div>
+            <div>
+                <img src="./img/portifolio/5.jpg" alt="">
+                <h2>Legenda da quinta foto</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis voluptatem eius saepe accusamus vero
+                    error quia maxime dolores sapiente rem velit similique quos, hic atque necessitatibus quod. Illum,
+                    amet expedita.</p>
+            </div>
+            <div>
+                <img src="./img/portifolio/6.jpg" alt="">
+                <h2>Legenda da sexta foto</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis voluptatem eius saepe accusamus vero
+                    error quia maxime dolores sapiente rem velit similique quos, hic atque necessitatibus quod. Illum,
+                    amet expedita.</p>
+            </div>
+        </section>
+
+        <h1>Fotos de galeria</h1>
+        <section class="grid1">
+            <div>
+                <img src="./img/portifolio/7.jpg" alt="">
+                <h2>Foto </h2>
+                 
+            </div>
+            <div>
+                <img src="./img/portifolio/8.jpg" alt="">
+                <h2>Foto </h2>
+               
+            </div>
+            <div>
+                <img src="./img/portifolio/9.jpg" alt="">
+                <h2>Foto </h2>
+                  
+            </div>
+            <div>
+                <img src="./img/portifolio/10.jpg" alt="">
+                <h2>Foto </h2>
+                 
+            </div>
+            <div>
+                <img src="./img/portifolio/1.jpg" alt="">
+                <h2>Foto </h2>
+                
+            </div>
+            <div>
+                <img src="./img/portifolio/2.jpg" alt="">
+                <h2>Foto </h2>
+                 
+            </div>
+            <div>
+                <img src="./img/portifolio/3.jpg" alt="">
+                <h2>Foto </h2>
+                
+            </div>
+            <div>
+                <img src="./img/portifolio/4.jpg" alt="">
+                <h2>Foto </h2>
+                 
+            </div>
+            <div>
+                <img src="./img/portifolio/5.jpg" alt="">
+                <h2>Foto </h2>
+                
+            </div>
+            <div class="anuncio">
+                <img src="./img/portifolio/10.jpg" alt="">
+                <h2>Anuncio </h2>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function showLink() {
+            let closeImage = document.querySelector("#close");
+            if (lista.style.display == "block") {
+                lista.style.display = "none"
+            } else {
+                lista.style.display = "block";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

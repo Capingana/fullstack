@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <title>FLEX-BOX E FLEX-GRID</title>
+</head>
+
+<body>
+    <header class="header_page">
+        <h1>Frotend Mentor</h1>
+        <menu>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">contadores</a></li>
+                <li><a href="#">Artigos</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main class="container">
+        <h1>Contagem regressiva para 2025</h1>
+        <section class="data">
+            <div>
+                <h1 id="dia"></h1>
+                <p>Dias</p>
+            </div>
+            <div>
+                <h1 id="hora">12</h1>
+                <p>Horas</p>
+            </div>
+            <div>
+                <h1 id="minuto">50</h1>
+                <p>Minutos</p>
+            </div>
+            <div>
+                <h1 id="segundo">07</h1>
+                <p>Segundos</p>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script>
+        let dia = document.querySelector("#dia");
+        let hora = document.querySelector("#hora");
+        let minuto = document.querySelector("#minuto");
+        let segundo = document.querySelector("#segundo")
+        let data = new Date();
+            hora.innerHTML = data.getHours()
+            dia.innerHTML = data.getDate();
+            minuto.innerHTML = data.getMinutes();
+            segundo.innerHTML = data.getSeconds();
+
+
+    </script>
+</body>
+
+</html>

@@ -16,7 +16,7 @@
         <img src="./assets/img/menu-logo/logo.png" alt="logo" srcset="" class="logo">
         <menu class="menu-ul">
             <div class="burguer-div">
-                <img src="./assets/img/menu-logo/menu.png" alt="" class="burger" onclick="fecharBurguer()">
+                <img src="./assets/img/menu-logo/menu.png" alt="" id="imagem" class="burger" onclick="fecharBurguer()">
             </div>
             <ul id="lista">
                 <li><a href="#">Inicio</a></li>
@@ -144,9 +144,13 @@
     <!-- javascript -->
     <script>
         function fecharBurguer() {
+            let imagem=document.querySelector("#imagem");
+            
             if (lista.style.display != "none") {
+                imagem.src="./assets/img/menu-logo/menu.png";
                 lista.style.display = "none";
             } else {
+                imagem.src="./assets/img/menu-logo/close.png";
                 lista.style.display = "block"
             }
         }
